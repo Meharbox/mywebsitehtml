@@ -1,0 +1,53 @@
+
+.round-corners {
+
+
+border-radius: 20px;
+height: 900px;
+width: 900px;
+
+text-align: center;
+place-items:center;
+
+}
+
+.header {
+position: relative;
+width: 100%;
+
+}
+.cart-icon {
+    position: absolute;
+    right: 10px; /* Adjust the distance from the right as needed */
+    top: 10px; /* Adjust the distance from the top as needed */
+    font-size: 24px; /* Adjust the size of the cart icon as needed */
+  }
+/*this is comment*/
+
+
+  .banner-container {
+    position: relative;
+    text-align: center; /* Center content for older browsers */
+}
+
+/* Styles for the banner image */
+.banner-container {
+    position: relative;
+    text-align: center;
+}
+
+.buy-now {
+    position: absolute;
+    bottom: 20%; /* Adjust this value to move the button up or down */
+    left: 50%; /* Centers the button horizontally */
+    transform: translate(-50%, -50%);
+    background-color: #008CBA; /* Example button color */
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10; /* Ensure the button is above the image */
+}
